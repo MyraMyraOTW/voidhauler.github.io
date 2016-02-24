@@ -1,0 +1,357 @@
+We decided to incorperate a timed slideshow of images for our games. This runs on a 5 second timer. Imports J-Query as an additional Library
+
+<script src="http://code.jquery.com/jquery-latest.min.js">
+    </script>
+    <script src="jquery.slides.min.js"></script>
+ // Jquery slideshow uses slidesjs
+        $(function () {
+            $("#sslideshower").slidesjs({
+                width: 470,
+                height: 264,
+                play: {
+                    auto: true,
+                    interval: 5000,
+                    effect: "slide",
+                    pauseOnHover: true,
+                    restartDelay: 3000
+                }
+            });
+        });
+
+        $(function () {
+            $(".ss2").slidesjs({
+                width: 470,
+                height: 264,
+                play: {
+                    auto: true,
+                    interval: 5000,
+                    effect: "slide",
+                    pauseOnHover: true,
+                    restartDelay: 3000
+                }
+            });
+        });
+
+
+We Converted our clock to use either AM or PM with 12H time compared to just 24H time. 
+function showTime() {
+            var today = new Date();
+
+            var hour = today.getHours();
+            var minute = today.getMinutes();
+            var seconds = today.getSeconds();
+
+            var aorp = " AM";
+
+
+            aorp = checkAorp(hour, aorp);
+            hour = checkHour(hour);
+            minute = checkTime(minute);
+            seconds = checkTime(seconds);
+
+
+            document.showTime.Time.value = hour + "|" + minute + "|" + seconds + aorp + "  " + today.toLocaleDateString();
+
+        }
+
+        function checkTime(i) {
+            if (i < 10) {
+                i = "0" + i;
+                return i;
+            } else {
+
+                return i;
+            }
+        }
+
+        function checkHour(i) {
+            if (i == 0) {
+                i = 12;
+                return i;
+            } else if (i > 12) {
+                i -= 12;
+
+                return i;
+            } else {
+                return i;
+            }
+
+        }
+//checks for AM or PM (AorP)
+        function checkAorp(h, i) {
+            if (h >= 12) {
+                i = " PM";
+                return i;
+            } else {
+                i = " AM";
+                return i;
+            }
+        }
+
+
+Another Extended Feature is a very detailed Cross Reference Page (Refer to current page)
+
+Another Extended Feature is the awesome Paralax effect. It makes having lots of content on a single page very do-able and is a nice feature.
+
+Last Extended Feature is a work-around for FireFox to be able to render the web-page properly as we had difficulties getting it to run as well as chrome because of incompatible variables (mainly Z-Index). I created a style-sheet specifically for FireFox, so when it loads it wont load the variables that cause problems for its rendering engine. This is essentially a clone for it to run inplace of the normal Style-Sheet with a few changes that make it run when compared to chrome/other browsers. Last because of really long code:
+/* FOR FIREFOX ONLY */
+
+@-moz-document url-prefix() {
+/* THIS IS WHAT MAKES IT TARGET MOZ WEBKITS ONLY(MOZILLA) */
+
+    html {
+        height: 100%;
+        overflow: hidden;
+    }
+    body {
+        font: antialiased;
+        margin: 0;
+        padding: 0;
+        perspective: 1px;
+        transform-style: preserve-3d;
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        font-family: 'Titillium Web', sans-serif;
+        color: white;
+        background: #222;
+    }
+    #Time {
+        background-color: #222;
+        border-style: none;
+    }
+    #lUpdated {
+        font-size: 14px;
+        text-align: center;
+        position: sticky;
+    }
+    h1 {
+        font-size: 250%
+    }
+    p {
+        font-size: 140%;
+        line-height: 150%;
+    }
+    ul {
+        list-style-type: none;
+    }
+    .slide {
+        z-index: -20;
+        position: relative;
+        padding: 25vh 10%;
+        min-height: 50vh;
+        width: 100vw;
+        box-sizing: border-box;
+        box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+        transform-style: inherit;
+    }
+    .slide:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .left {
+        float: left;
+    }
+    .right {
+        float: right;
+    }
+    #dimg {
+        width: 40%;
+        height: 20%;
+        margin: 0 15px 0 0;
+    }
+    #content {
+        display: grid;
+    }
+    #TRU {
+        text-shadow: none;
+        color: #008db3;
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover {
+        color: red;
+        text-decoration: overline;
+    }
+    #TRU {
+        text-shadow: none;
+        color: #008db3;
+    }
+    .top {
+        text-decoration: none;
+        color: white;
+        position: relative;
+    }
+    #topclickl {
+        margin-left: auto;
+        margin-right: 50px;
+    }
+    #topclickr {
+        margin-left: 50px;
+        margin-right: auto;
+    }
+    #DLTABLE td {
+        padding: 10px;
+    }
+    /* SlideShow */
+    
+    #sslideshower {
+        display: none
+    }
+    #sslideshower .slidesjs-container {}
+    #sslideshower .slidesjs-navigation {
+        margin-top: 3px;
+    }
+    #sslideshower .slidesjs-previous {
+        margin-right: 5px;
+        float: left;
+    }
+    #sslideshower .slidesjs-next {
+        margin-right: 5px;
+        float: left;
+    }
+    .slidesjs-pagination {
+        margin: 6px 0 0;
+        float: right;
+        list-style: none;
+    }
+    .slidesjs-pagination li {
+        float: left;
+        margin: 0 1px;
+    }
+    .slidesjs-pagination li a {
+        display: block;
+        width: 13px;
+        height: 0;
+        padding-top: 13px;
+        background-image: url(pagination.png);
+        background-position: 0 0;
+        float: left;
+        overflow: hidden;
+    }
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+        background-position: 0 -13px
+    }
+    .slidesjs-pagination li a:hover {
+        background-position: 0 -26px
+    }
+    /* DropCap */
+    
+    .firstcharacter {
+        float: left;
+        color: #903;
+        font-size: 75px;
+        line-height: 60px;
+        padding-top: 4px;
+        padding-right: 2px;
+        padding-left: 3px;
+    }
+    /* Return to top buttons */
+    
+    .returnTopBTN {
+        background: #292E37;
+        opacity: 0.9;
+        box-shadow: 0 0 8px #292E37;
+        z-index: 2;
+        padding: 8px;
+    }
+    #buttonWrap {
+        float: right;
+        top: auto;
+        position: relative;
+    }
+    #buttonWrapBottom {
+        background: none;
+        box-shadow: none;
+        float: right;
+        top: 98%;
+        right: 10%;
+        position: absolute;
+    }
+    /* Box for Slides*/
+    
+    .title {
+        width: 90%;
+        height: 80%;
+        padding: 5%;
+        background: #292E37;
+        background: rgb(41, 46, 55);
+        background: hsl(219, 15%, 19%);
+        opacity: 0.9;
+        box-shadow: 0 0 8px #292E37;
+        z-index: 2;
+    }
+    .slide:nth-child(2n) .title {
+        margin: auto;
+    }
+    .slide:nth-child(2n+1) .title {
+        margin: auto;
+    }
+    .slide,
+    .slide:before {
+        z-index: -20;
+        background: 50% 50% / cover;
+    }
+    .header {
+        text-align: center;
+        font-size: 175%;
+        color: #fff;
+        text-shadow: 0 2px 2px red;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        height: 100%;
+    }
+    #footer {
+        text-align: center;
+        position: sticky;
+    }
+    /* Added Slides */
+    
+    #title {
+        background: #feaa3a;
+        background-attachment: sticky;
+    }
+    #slide1:before {
+        background-image: url("smp2.png");
+        transform: translateZ(-1px) scale(2);
+        z-index: -1;
+    }
+    #slide2 {
+        background-image: url("smp3.png");
+        background-attachment: fixed;
+    }
+    #slide3 {
+        z-index: -21;
+    }
+    #slide3:before {
+        background-image: url("smp5.jpg");
+        transform: translateZ(-1px) scale(2);
+    }
+    #slide4 {
+        background: #222;
+    }
+    #contactTable {
+        text-align: center;
+        width: 75%;
+        background-color: #333;
+        border-style: dashed;
+        border-color: red;
+    }
+    #cName {
+        width: 40%;
+    }
+    #cEmail {
+        width: 60%;
+    }
+    #Time {
+        text-align: center;
+    }
+}
+/* END OF FIREFOX ONLY */
+

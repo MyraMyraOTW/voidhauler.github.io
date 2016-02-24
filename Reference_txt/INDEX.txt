@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+
+<html>
+
+
+<head>
+    <title>Index for Mohd</title>
+</head>
+<style>
+    p {
+        font-size: 300%;
+    }
+</style>
+
+<body>
+
+    <p> We only have 4 Pages in total. Main Page, Bloopers Page, FORM and Cross Reference. <strong>Please Note that this is not used for our project.</strong> This is for Mohd to be able to reach all web pages should he need to. Everything is controlled through our main page in the header (as our navigation bar essentially)
+
+        <br/>
+
+        <a href="2680FINAL_ZACARYPATTISON,DEVYNCATERER,TRAVISEFTODA/fproj.html" target="_blank"> Main Page</a>
+        <br/>
+
+        <a href="2680FINAL_ZACARYPATTISON,DEVYNCATERER,TRAVISEFTODA/tank_bloopers.html" target="_blank"> Bloopers Page</a>
+        <br/>
+
+        <a href="2680FINAL_ZACARYPATTISON,DEVYNCATERER,TRAVISEFTODA/userFeedback.html" target="_blank"> FORM</a>
+        <br/>
+
+        <a href="2680FINAL_ZACARYPATTISON,DEVYNCATERER,TRAVISEFTODA/crossReference.html" target="_blank"> Cross Reference</a>
+        <br/>
+    </p>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<label for="usersname">Name</label>
+	<input name="usersname" id="usersname" placeholder="enter name or nickname" type="text" required="required" 
+	style="focus{background-color: rgb(220, 255, 220);}" onsubmit="checkname(this)"/>
+
+<script type="text/javascript">
+	function checkname(field){
+		var letters = /^[A-Za-z]+$/;
+		if(field.value.match(letters)){
+			return true;
+		}else{
+			alert("emty name field");
+			field.focus();
+			field.select();
+			return false;
+		}
+	}
+</script>

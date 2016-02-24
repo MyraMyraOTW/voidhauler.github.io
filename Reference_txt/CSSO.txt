@@ -1,0 +1,3 @@
+ROTATE AN IMAGE USING INLINE-CSS (WE FOUND THAT ROTATING AN OBJECT DIDNT FIT OUR PAGE DESIGN VERY WELL)
+
+<img src="cornerstripe.png" style="transform:rotate(45deg);"/>

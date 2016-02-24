@@ -1,0 +1,3 @@
+<label for="usersname">Name</label>
+	<input name="usersname" id="usersname" placeholder="enter name or nickname" type="text" required="required" 
+	style="focus{background-color: rgb(220, 255, 220);}" onsubmit="checkname(this)"/>

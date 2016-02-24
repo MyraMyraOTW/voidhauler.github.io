@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Tank Bloopers!</title>
+
+</head>
+
+<body>
+
+    <h1> BLOOPER #1: THE TAP-DANCING TANK!<br/></h1>
+    <video width="640" height="360" controls>
+        <source src="troltank.mp4" type="video/mp4">
+            <source src="troltank.ogg" type="video/ogg">Sorry, your browser doesn't support HTML5 video.
+    </video>
+
+
+</body>
+
+
+
+</html>

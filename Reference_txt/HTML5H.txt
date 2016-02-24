@@ -1,0 +1,5 @@
+Copyright Symbol:
+
+<p id="footer">&#xa9 Cannon Fodder Studios</p>
+
+&#xa9 is the symbol

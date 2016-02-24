@@ -1,0 +1,103 @@
+ALL OF OUR JAVASCRIPT
+
+<script src="http://code.jquery.com/jquery-latest.min.js">
+    </script>
+    <script src="jquery.slides.min.js"></script>
+
+
+    <script>
+        //Dont really know what this is for Devyn. Changed it to HEADING TO LOCATION! cuz its on the refernce ID buttons. Commented out for now.
+
+
+        // USE for form
+        /*
+        $(document).ready(function () {
+            $("a").click(function (event) {
+                alert("Heading to Location");
+            })
+        });
+        */
+
+        // Jquery slideshow uses slidesjs
+        $(function () {
+            $("#sslideshower").slidesjs({
+                width: 470,
+                height: 264,
+                play: {
+                    auto: true,
+                    interval: 5000,
+                    effect: "slide",
+                    pauseOnHover: true,
+                    restartDelay: 3000
+                }
+            });
+        });
+
+        $(function () {
+            $(".ss2").slidesjs({
+                width: 470,
+                height: 264,
+                play: {
+                    auto: true,
+                    interval: 5000,
+                    effect: "slide",
+                    pauseOnHover: true,
+                    restartDelay: 3000
+                }
+            });
+        });
+
+        function showTime() {
+            var today = new Date();
+
+            var hour = today.getHours();
+            var minute = today.getMinutes();
+            var seconds = today.getSeconds();
+
+            var aorp = " AM";
+
+
+            aorp = checkAorp(hour, aorp);
+            hour = checkHour(hour);
+            minute = checkTime(minute);
+            seconds = checkTime(seconds);
+
+
+            document.showTime.Time.value = hour + "|" + minute + "|" + seconds + aorp + "  " + today.toLocaleDateString();
+
+        }
+
+        function checkTime(i) {
+            if (i < 10) {
+                i = "0" + i;
+                return i;
+            } else {
+
+                return i;
+            }
+        }
+
+        function checkHour(i) {
+            if (i == 0) {
+                i = 12;
+                return i;
+            } else if (i > 12) {
+                i -= 12;
+
+                return i;
+            } else {
+                return i;
+            }
+
+        }
+
+        function checkAorp(h, i) {
+            if (h >= 12) {
+                i = " PM";
+                return i;
+            } else {
+                i = " AM";
+                return i;
+            }
+        }
+    </script>

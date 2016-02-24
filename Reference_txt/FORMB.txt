@@ -1,0 +1,46 @@
+fieldset { 
+	margin-left: 10%;
+	margin-right: 10%;
+    border-color: red;
+} 
+ 
+label { 
+	clear: left; 
+	display: block; 
+	float: left; 
+	font-size: 1em; 
+	margin: 7px 4% 7px 5px; 
+	width: 40%; 
+}
+
+select { 
+	display: block; 
+	float: left; 
+	font-size: 1em; 
+	margin: 7px 0px; 
+}
+
+textarea { 
+	display: block; 
+	font-size: 1em; 
+	float: left; 
+	height: 160px; 
+	margin: 10px 0px; 
+	width: 50%; 
+}
+
+input { 
+	display: block; 
+	float: left; 
+	font-size: 1em; 
+	margin: 7px 0px; 
+	width: 50%; 
+}
+
+input[type="submit"] {   
+	height: 40px; 
+	width: 200px;
+	color: white;
+	background-color: #222; 
+	
+}

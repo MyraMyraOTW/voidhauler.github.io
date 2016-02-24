@@ -1,0 +1,14 @@
+
+<label for="usersname">Name</label>
+	<input name="usersname" id="usersname" placeholder="enter name or nickname" type="text" required="required" 
+	style="focus{background-color: rgb(220, 255, 220);}" onsubmit="checkname(this)"/>
+
+
+<label>Where did you hear about our game?
+	<br />(select all that apply)</label>
+<select name="infoSrc" id="infoSrc" size="4" multiple="multiple" type="text" required="required">
+	<option value="friends">Friends</option>
+	<option value="online">Online</option>
+	<option value="word">Word of Mouth</option>
+	<option value="other">Other</option>
+</select>

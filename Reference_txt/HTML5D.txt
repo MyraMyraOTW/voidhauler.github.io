@@ -1,0 +1,12 @@
+There are many bookmarks (id = "") on our page, infact it is the main way to move around it.
+
+BOOKMARKED ITEMS:
+<div id="slide1" class="slide">
+<div id="slide2" class="slide">
+<div id="slide3" class="slide">
+<div id="buttonWrap" class="returnTopBTN">(there are atleast 3 of these to return to top of page)
+<div id="TOPRETURN" style="top:0;left:0;"></div> (used for the TOPRETURN button to go to the TOP of the page)
+
+
+ACCESSES BOOKMARKS:
+ <a href="#TOPRETURN">RETURN TO TOP</a> (again atleast 3 of these)

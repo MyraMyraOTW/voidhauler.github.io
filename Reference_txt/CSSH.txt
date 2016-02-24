@@ -1,0 +1,49 @@
+BACKGROUND IS PARALAX EFFECT SO NO FORMAL BACKGROUND IMAGE
+ .title {
+        width: 90%;
+        height: 80%;
+        padding: 5%;
+        background: #292E37;
+        background: rgb(41, 46, 55);
+        background: hsl(219, 15%, 19%);
+        opacity: 0.9;
+        box-shadow: 0 0 8px #292E37;
+        z-index: 2;
+    }
+
+.slide {
+    position: relative;
+    padding: 25vh 10%;
+    min-height: 50vh;
+    width: 100vw;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+    transform-style: inherit;
+}
+
+.slide:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#dimg {
+    width: 40%;
+    height: 20%;
+    margin: 0 15px 0 0;
+}
+
+#content {
+    display: grid;
+}

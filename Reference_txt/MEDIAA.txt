@@ -1,0 +1,12 @@
+Used on tank_bloopers.html. Accessed by clicking on bloopers! in our games update section. No Autoplay enabled as there will be more videos in the future. Currently sound will not play through Firefox, but does play in chrome. (Most likely Flash Player problem as Chrome no longer uses Flash Player for its videos.)
+
+<body>
+
+    <h1> BLOOPER #1: <br/></h1>
+    <video width="640" height="360" controls>
+        <source src="troltank.mp4" type="video/mp4">
+            <source src="troltank.ogg" type="video/ogg">Sorry, your browser doesn't support HTML5 video.
+    </video>
+
+
+</body>

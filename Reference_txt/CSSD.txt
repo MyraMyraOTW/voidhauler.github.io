@@ -1,0 +1,48 @@
+TABLE
+#contactTable {
+    text-align: center;
+    width: 75%;
+    background-color: #333;
+    border-style: dashed;
+    border-color: red;
+}
+
+FORM
+#footer {
+    text-align: center;
+    position: sticky;
+}
+
+PARAGRAPH
+p {
+    font-size: 140%;
+    line-height: 150%;
+}
+
+LIST
+ul {
+    list-style-type: none;
+}
+
+BACKGROUND(USED FOR SLIDES AS THERE IS NO FORMAL BACKGROUND IMAGE)
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(pagination.png);
+    background-position: 0 0;
+    float: left;
+    overflow: hidden;
+}
+
+HEADERS
+.header {
+    text-align: center;
+    font-size: 175%;
+    color: #fff;
+    text-shadow: 0 2px 2px red;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    height: 100%;
+}

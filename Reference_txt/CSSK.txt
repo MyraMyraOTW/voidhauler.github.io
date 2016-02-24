@@ -1,0 +1,36 @@
+DIVS:
+
+ <div id="TOPRETURN" style="top:0;left:0;"></div>
+    </div>
+    <div id="title" class="header">
+        <div id="btncontain">
+            <a class="top" id="topclickl" href="#slide2">Games</a>
+            <a class="top" id="topclick" href="#slide3">Contact Us</a>
+            <a class="top" id="topclickr" href="#slide4">About Us</a>
+            <a id="topclickr" href="userFeedback.html" target="_blank">Feedback</a>
+            <!--link for feedback pg-->
+            <a id="topclickr" href="crossReference.html" target="_blank">X-Reference</a>
+            <!--link to cross reference pg?-->
+        </div>
+
+
+
+
+STYLESHEET FOR DIVS:
+
+.top {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-weight: normal;
+}
+
+#topclickl {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+#topclickr {
+    margin-left: 50px;
+    margin-right: auto;
+}

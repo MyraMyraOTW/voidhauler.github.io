@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>User Feedback</title>
+    <link href="feedbackStyles.css" rel="stylesheet" />
+
+	<img src="tonkLogo.png">
+        <h1>User Feedback Page</h1>
+
+	<script type="text/javascript">
+		function checkname(field){
+			var letters = /^[A-Za-z]+$/;
+			if(field.value.match(letters)){
+				return true;
+			}else{
+				alert("emty name field");
+				field.focus();
+				field.select();
+				return false;
+			}
+		}
+	</script>
+	
+</head>
+
+
+
+<body>
+    <header>
+
+        
+				
+    </header>
+
+
+    <div>
+        <form id="survey" name="survey" action="dcter12+webpage@gmail.com" method="post">
+            <!--needs action-->
+
+            <fieldset id="UserInfo">
+
+                <label for="usersname">Name</label>
+                <input name="usersname" id="usersname" placeholder="enter name or nickname" type="text" required="required" 
+				style="focus{background-color: rgb(220, 255, 220);}" onsubmit="checkname(this)"/>
+				
+                <label>Where did you hear about our game?
+                    <br />(select all that apply)</label>
+                <select name="infoSrc" id="infoSrc" size="4" multiple="multiple" type="text" required="required">
+                    <option value="friends">Friends</option>
+                    <option value="online">Online</option>
+                    <option value="word">Word of Mouth</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="comments">Tell us your thoughts on our game </label>
+                <textarea name="comments" id="comments" placeholder="your likes, dislikes or things you think we should add in the future" type="text" required="required"></textarea>
+
+                <p>
+                    <input type="submit" value="Submit User Feedback" />
+                </p>
+            </fieldset>
+        </form>
+    </div>
+
+    <p><a id="MAIN" href="fproj.html" target="_self">Back to the Main Page</a>
+    </p>
+
+</body>
+
+</html>

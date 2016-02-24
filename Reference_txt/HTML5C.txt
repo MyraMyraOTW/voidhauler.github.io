@@ -1,0 +1,19 @@
+Inspiration of the game
+http://www.2dplay.com/tanks/tanks-play.html
+
+Here is a model of the tank:
+https://goo.gl/KzGDCv
+
+LIST OF SCREENSHOTS:
+EVTScreen/Capture 1 - 5   // these are the screenshots for Extreme Virtual Tennis (other unity game made by us)
+
+TONKScreen/Capture 1-5 // these are the screenshots for TONKS (our main project)
+
+
+VIEWS THE TONKS GAME MANUAL
+TonksManual.pdf
+
+
+
+
++More

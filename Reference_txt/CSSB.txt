@@ -1,0 +1,37 @@
+<style>
+        #Time {
+            background-color: #222;
+            border-style: none;
+        }
+        
+        #footer {
+            text-align: center;
+            position: sticky;
+        }
+        /* Added Slides */
+        
+        #title {
+            background: #feaa3a;
+            background-attachment: sticky;
+        }
+        
+        #contactTable {
+            text-align: center;
+            width: 75%;
+            background-color: #333;
+            border-style: dashed;
+            border-color: red;
+        }
+        
+        #cName {
+            width: 40%;
+        }
+        
+        #cEmail {
+            width: 60%;
+        }
+        
+        #Time {
+            margin-left: 0.5%;
+        }
+    </style>

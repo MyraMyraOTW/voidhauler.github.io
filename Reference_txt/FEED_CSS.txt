@@ -1,0 +1,112 @@
+
+/* General Stuff */
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+header img {
+	display: block;
+	margin:0 auto;
+	width: 80%;
+	
+}
+
+h1{
+	text-align: center;
+	font-size: 250%
+}
+
+body{
+	display: block;
+	margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    background-color: #222;
+
+}
+
+body p {
+	display: block;
+	float: right;
+	padding-right: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+	font-size: 1.2em;
+}
+
+a:hover {
+    color: red;
+    text-decoration: overline;
+}
+
+/* Form Stuff */
+fieldset { 
+	margin-left: 10%;
+	margin-right: 10%;
+    border-color: red;
+} 
+ 
+label { 
+	clear: left; 
+	display: block; 
+	float: left; 
+	font-size: 1em; 
+	margin: 7px 4% 7px 5px; 
+	width: 40%; 
+}
+
+select { 
+	display: block; 
+	float: left; 
+	font-size: 1em; 
+	margin: 7px 0px; 
+}
+
+textarea { 
+	display: block; 
+	font-size: 1em; 
+	float: left; 
+	height: 160px; 
+	margin: 10px 0px; 
+	width: 50%; 
+}
+
+input { 
+	display: block; 
+	float: left; 
+	font-size: 1em; 
+	margin: 7px 0px; 
+	width: 50%; 
+}
+
+input[type="submit"] {   
+	height: 40px; 
+	width: 200px;
+	color: white;
+	background-color: #222; 
+	
+}
+ 
+ 
+/* Validation Stuff*/
+input:focus, select:focus, textarea:focus { 
+   background-color: rgb(220, 255, 220); 
+}
+
+input:focus:valid { 
+   background: rgb(220, 255, 220) url(http://www.clker.com/cliparts/s/1/v/q/p/N/black-check-mark-hi.png) bottom right no-repeat;  
+   background-size: contain; 
+}
+
+input:focus:invalid { 
+   background: rgb(255, 232, 233) url(http://cdn.mysitemyway.com/icons-watermarks/simple-black/alphanum/alphanum_lowercase-letter-x/alphanum_lowercase-letter-x_simple-black_512x512.png) bottom right no-repeat; 
+   background-size: contain; 
+}

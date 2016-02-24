@@ -1,0 +1,6 @@
+<header>
+            <hgroup>
+                <h1>Cannon Fodder Studios</h1>
+                <h4>A Recipe For Disaster</h4>
+            </hgroup>
+        </header>

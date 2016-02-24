@@ -1,0 +1,8 @@
+    <footer id="footer">&#xa9 Cannon Fodder Studios
+
+        <p id="lUpdated"><font color="black">Last Updated: 11/29/2015</font>
+        </p>
+        <form name="showTime" id="footer">
+            <input id="Time" type="text" size="17"></input>
+        </form>
+    </footer>

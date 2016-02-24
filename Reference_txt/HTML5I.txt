@@ -1,0 +1,8 @@
+    <meta charset="utf-8" />
+    <meta name="author" content="Cannon Fodder Studios" />
+    <meta name="description" content="A website designed for Cannon Fodder Studios(That's us!) and is a project for COMP2680 at TRU" />
+
+    <meta name="keywords" content="Games, Unity, School, TRU, ThompsonRiversUniversity, Students, Awesome" />
+    
+    
+    

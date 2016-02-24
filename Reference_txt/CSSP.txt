@@ -1,0 +1,23 @@
+
+
+.title {
+        width: 90%;
+        height: 80%;
+        padding: 5%;
+        background: #292E37;
+        opacity: 0.9;
+        box-shadow: 0 0 8px #292E37;
+        z-index: 2;
+        font-weight: normal;
+    } USED FOR EVERY SLIDES MAIN INFORMATION BOX (SO THERE ARE 3 OF THEM)
+
+
+USED FOR THE RETURN TO TOP BUTTON ATTACHED TO .title FIELDS
+
+.returnTopBTN {
+    background: #292E37;
+    opacity: 0.9;
+    box-shadow: 0 0 8px #292E37;
+    z-index: 2;
+    padding: 8px;
+}

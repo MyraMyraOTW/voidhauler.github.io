@@ -1,0 +1,19 @@
+<h1>Cannon Fodder Studios</h1>
+
+ <p><span class="firstcharacter">O</span>ur studio, Cannon Fodder Studios, consists of a group of students who got together at <a id="TRU" href="http://www.tru.ca/" target="_blank">Thompson Rivers University(TRU)</a> for a project in our Game Design class. We were tasked with creating a game, using either Game Maker or a similar program. Not liking the limitations of Game Maker our group eventually decided on using Unity 3D to build our game. While this would increase the difficulty of our project with the steeper learning curve of learning to use Unity 3D, we would have far more functions and more freedom than we ever would have had using Game Maker. Unity 3D in particular is well know for it's great graphics and realistic physics engine. Our group feels that we will have fully diplayed this in our project.</p>
+
+
+<h1>Games</h1>
+
+<p> Tonks is a modern take on the retro games 'Scorched Earth' for DOS and 'Artillery' for Apple II. It is a two player game in which players take turns trying to destroy the other with their respective tanks. The enviroment is destructable and can be used to their own advantage and players are able to select weapons based on their situation. So prepare for a battle!</p>
+
+<h2 style="text-align:center; font-weight: 400">ScreenShots</h2>
+
+<h2 style="text-align:center; font-weight: 400">Updates</h2>
+
+<h3>2/12/2015</h3>
+
+<p>Final Project version completed. Features Added or Fixed</p>
+
+
+AND MANY MORE

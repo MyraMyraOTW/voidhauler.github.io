@@ -1,0 +1,60 @@
+ID'D ELEMENTS:
+
+<div id="slide2" class="slide">
+<div id="content">
+<div id="sslideshower">
+<div id="buttonWrap" class="returnTopBTN">
+<footer id="footer">&#xa9 Cannon Fodder Studios
+
+        <p id="lUpdated"><font color="black">Last Updated: 11/29/2015</font>
+        </p>
+        <form name="showTime" id="footer">
+            <input id="Time" type="text" size="19"></input>
+        </form>
+    </footer>
+
+
+
+STYLE FOR THE ELEMENTS:
+
+
+
+#slide2 {
+    background-image: url("smp3.png");
+    background-attachment: fixed;
+}
+
+#content {
+    display: grid;
+}
+
+#sslideshower {
+    display: none
+}
+
+#sslideshower .slidesjs-container {}
+
+#sslideshower .slidesjs-navigation {
+    margin-top: 3px;
+}
+
+#sslideshower .slidesjs-previous {
+    margin-right: 5px;
+    float: left;
+}
+
+#sslideshower .slidesjs-next {
+    margin-right: 5px;
+    float: left;
+}
+
+#buttonWrap {
+    float: right;
+    top: auto;
+    position: relative;
+}
+
+#footer {
+    text-align: center;
+    position: sticky;
+}

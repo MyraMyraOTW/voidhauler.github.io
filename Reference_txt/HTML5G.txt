@@ -1,0 +1,89 @@
+<ul style="list-style-type: square">
+<li>2D and 3D perspective cameras added</li>
+<li>Tank shells now function as expected</li>
+<ul>
+<li>IE. Shells now fire with semi-realistic arc physics</li>
+</ul>
+<li>UI now has exit and play functions as well as displaying health of tanks along with power, angle, and movetime</li>
+<li>Health increased to 10000 and explosions have a multiplier based upon number of hits. Hit mult is global and </br> this means the game gets more dangerous the longer it lasts</li>
+<li>Tank physics improved</li>
+</ul>
+
+
+
+
+
+
+
+<ul style="list-style-type: square">
+<li>Basic Concept Designed</li>
+<ul>
+<li>Started work on a turn based 3D artillery game akin to the age old game tanks</li>
+<li>To check out flash based tank game that inspired the concept click <a href="http://www.2dplay.com/tanks/tanks-play.htm">HERE</a>
+</li>
+</ul>
+</ul>
+
+
+
+ABOUT US SECTION:
+
+<ul>
+<li>
+<ul>
+<li>
+<h1>Devyn Caterer</h1>
+</li>
+<li>
+<p>3D Design Artist</p>
+<ul>
+<li>Creates all 3D models and Terrains used in our games</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<h1>Zacary Pattison</h1>
+</li>
+<li>
+<p>Lead Coder</p>
+<ul>
+<li>Implements everything the team makes into a single game</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<h1>Travis Eftoda</h1>
+</li>
+<li>
+<p>User Interface Designer</p>
+<ul>
+<li>Designs and implements all User Interfaces and Menus</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<h1>Jason Sorenson</h1>
+</li>
+<li>
+<p>Producer</p>
+<ul>
+<li>Creates all documentation and assists in any work needed</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<h1>Joshua Lindsay</h1>
+</li>
+<li>
+<p>Sound Artist</p>
+<ul>
+<li>Creates all sounds in our games</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>

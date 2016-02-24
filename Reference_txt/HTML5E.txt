@@ -1,0 +1,16 @@
+<img src="cannonflogo.png">
+
+<img src="tonkLogo.png" id="dimg" style="display: block; margin-left: auto; margin-right: auto" />
+
+<img src="Button.png" style="width:200px; height:55px;"></img>
+
+SLIDESHOW:
+ <div id="sslideshower">
+                    <img src="http://placehold.it/940x528">
+                    <img src="http://placehold.it/940x528">
+                    <img src="http://placehold.it/940x528">
+                    <img src="http://placehold.it/940x528">
+                    <img src="http://placehold.it/940x528">
+                </div>
+
+THERE ARE 2 OF THESE(TONKS AND EVT)
